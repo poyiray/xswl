@@ -1,0 +1,57 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.headpic {
+    float: left;
+    height: 210px;
+    width: 158px;
+    margin: 20px 20px;
+}
+.head { 
+    margin-top: 20px;
+    background-color: #8888;
+}
+.name h4 {
+    font-size: 30px;
+}
+.name p {
+    color: gray;
+}
+.name em {
+    display: block;
+}
+.name {
+    float: left;
+    margin: 40px 20px;
+}
+.download {
+    float: left;
+    width: 220px;
+    height: 70px;
+    margin-top: 37px;
+    border-radius: 15px;
+    background-color: green;
+}
+.download a {
+    display: block;
+    width: 220px;
+    height: 70px;
+    text-decoration: none;
+}
+.download a:hover {
+    background-color: orange;
+    border-radius: 15px;
+}
+.download a h3 {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    line-height: 70px;
+}
