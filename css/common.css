@@ -1,9 +1,11 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     scroll-behavior: smooth;
 }
+
 .bkpic {
     z-index: -1;
     background-image: url(../images/common/background.bc725153.png);
@@ -13,43 +15,53 @@ body {
     height: 100vh;
     background-size: cover;
 }
+
 .w {
     width: 1200px;
     margin: 0 auto;
 }
+
 .fl {
     float: left;
 }
+
 .fr {
     float: right;
 }
+
 .headpic {
     float: left;
     height: 210px;
     width: 158px;
     margin: 20px 20px;
 }
-.head { 
+
+.head {
     position: relative;
     width: 1200px;
     height: 260px;
     margin-top: 20px;
     background-color: #ffff;
 }
+
 .name h4 {
     font-size: 30px;
 }
+
 .name p {
     color: gray;
 }
+
 .name em {
     float: left;
     display: block;
 }
+
 .name {
     float: left;
     margin: 40px 20px;
 }
+
 .download {
     position: absolute;
     left: 220px;
@@ -60,12 +72,14 @@ body {
     border-radius: 15px;
     background-color: #8888;
 }
+
 .download a {
     display: block;
     width: 220px;
     height: 70px;
     text-decoration: none;
 }
+
 .download em {
     position: absolute;
     color: #888;
@@ -74,55 +88,67 @@ body {
     margin-left: 20px;
     font-size: 12px;
 }
+
 .download a:hover {
     background-color: orange;
     border-radius: 15px;
 }
+
 .download a h3 {
     text-align: center;
     color: #ffff;
     font-size: 18px;
     line-height: 55px;
 }
-.more-info h2{
+
+.more-info h2 {
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 10px;
     margin-top: 40px;
 }
+
 .more-info .topic {
-    border-bottom: orange solid 3px ;
+    border-bottom: orange solid 3px;
 }
+
 .more-info {
     width: 780px;
     background-color: #ffff;
     padding-bottom: 60px;
 }
-.more-info h3{
+
+.more-info h3 {
     padding-left: 20px;
     padding-bottom: 20px;
     margin-top: 40px;
 }
+
 .more-info p {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .pzyq {
     width: 780px;
     background-color: #ffff;
 }
+
 .pzyq-tittle {
     border-bottom: orange solid 3px;
     padding-left: 30px;
     margin-top: 30px;
 }
+
 .pzyq-tittle h2 {
     padding-top: 20px;
     padding-bottom: 10px;
 }
+
 .pzyq-topic ul li {
     color: rgb(110, 127, 157)
 }
+
 .pzyq-topic {
     margin-top: 50px;
     padding-top: 15px;
@@ -130,23 +156,27 @@ body {
     border-bottom: 1px;
     background-color: rgb(239, 239, 239);
 }
-.pzyq-topic ul li{
+
+.pzyq-topic ul li {
     margin-bottom: 20px;
     margin-left: 217px;
     font-size: 20px;
     display: inline-block;
 }
+
 .pzyq-name {
     float: left;
     width: 180px;
     border: #8888 solid 1px;
     background-color: #ffff;
 }
+
 .pzyq-name li {
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .pzyq-high {
     float: left;
     width: 300px;
@@ -155,10 +185,12 @@ body {
     border-left: 1px;
     background-color: #ffff;
 }
+
 .pzyq-high li {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .pzyq-low {
     float: left;
     width: 300px;
@@ -167,29 +199,35 @@ body {
     border-left: 1px;
     background-color: #ffff;
 }
+
 .pzyq-low li {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .sm-all {
     width: 780px;
     background-color: #ffff;
 }
-.sm-topic h2{
+
+.sm-topic h2 {
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 10px;
     margin-top: 350px;
     border-bottom: orange solid 3px;
 }
+
 .sm-info {
     margin-top: 30px;
     padding-bottom: 40px;
 }
+
 .sm-info p {
     padding-left: 20px;
     line-height: 40px;
 }
+
 .download-all {
     width: 780px;
     padding-bottom: 40px;
@@ -197,13 +235,16 @@ body {
     margin-top: 30px;
     background-color: #ffff;
 }
+
 .download-topic {
     border-bottom: orange solid 3px;
 }
-.download-topic h2{
+
+.download-topic h2 {
     margin-left: 30px;
     padding-bottom: 10px;
 }
+
 .download-links a {
     float: left;
     margin-top: 20px;
@@ -218,26 +259,94 @@ body {
     color: #888;
     text-decoration: none;
 }
+
 .download-links a:hover {
-    background-color: rgb(211,211,211);
+    background-color: rgb(211, 211, 211);
 }
+
 .download-all p {
     text-align: center;
 }
+
 .download-picture {
     width: 476px;
     height: 200px;
     margin-left: 155px;
 }
-.more-game{
+
+.more-game {
+    position: relative;
     float: right;
     margin-top: 40px;
     width: 400px;
     background-color: #ffff;
-    border-bottom: orange solid 3px;
 }
-.more-game h2{
+
+.more-game h2 {
+    border-bottom: orange solid 3px;
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 10px;
+}
+
+.more-game h3 {
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.more-game h4 {
+    margin-left: 240px;
+}
+
+.more-game p {
+    margin-top: 20px;
+    display: block;
+    float: right;
+    margin-top: 16px;
+    margin-right: 30px;
+    width: 180px;
+}
+
+.game-img1 img {
+    margin: 20px;
+    margin-top: 0;
+    margin-right: 0;
+    width: 140px;
+    height: 200px;
+}
+
+.more-game .game1 {
+    float: right;
+}
+
+.go-other-web a:hover {
+    background-color: orange;
+}
+
+.go-other-web a {
+    display: block;
+    position: absolute;
+    float: right;
+    cursor: pointer;
+    bottom: 54px;
+    right: 75px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #888;
+}
+
+.go-other-web a {
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.fooder {
+    width: 100%;
+    height: 70px;
+    margin-top: 100px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #888;
 }
